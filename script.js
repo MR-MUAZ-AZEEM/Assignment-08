@@ -135,3 +135,62 @@
 // else{
 //     console.log("Invalid Input.");    
 // }
+
+// 11. Write a js program to input week number and print week day.
+
+// var x =+ prompt("Enter Day Number:");
+// if(x == 1){
+//     console.log("Monday.");    
+// }
+// else if(x == 2){
+//     console.log("Tuesday.");    
+// }
+// else if(x == 3){
+//     console.log("Wednesday.");    
+// }
+// else if(x == 4){
+//     console.log("Thursday.");    
+// }
+// else if(x == 5){
+//     console.log("Friday.");    
+// }
+// else if(x == 6){
+//     console.log("Saturday.");    
+// }
+// else if(x == 7){
+//     console.log("Sunday.");    
+// }
+// else{
+//     console.log("Invalid Input.");    
+// }
+
+// 12. Write a js program to input month number and print number of days in that month.
+
+// var x =+ prompt("Enter Month Number:");
+// if(x == 1 || x == 3 || x == 5 || x == 7 || x == 8 || x == 10 || x == 12){
+//     console.log("31 Days."); 
+// }
+// else if(x == 4 || x == 6 || x == 9 || x == 11){
+//     console.log("30 Days.");    
+// }
+// else if(x == 2){
+//     console.log("28 or 29 Days.");    
+// }
+// else{
+//     console.log("Invalid Input.");    
+// }
+
+// 14. Write a js program to input angles of a triangle and check whether triangle is valid or not.
+ 
+// var x =+ prompt("Enter First Angle:");
+// var y =+ prompt("Enter Second Angle:");
+// var z =+ prompt("Enter Third Angle:");
+// if(x + y + z == 180){
+//     console.log("It's a Valid Triangle.");    
+// }
+// else if(x + y + z > 180 || x + y + z < 180){
+//     console.log("It's NOT a Valid Triangle.");    
+// }
+// else{
+//     console.log("Invalid Input.");    
+// }
