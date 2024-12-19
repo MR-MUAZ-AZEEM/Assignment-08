@@ -194,3 +194,33 @@
 // else{
 //     console.log("Invalid Input.");    
 // }
+
+// 15. Write a js program to input all sides of a triangle and check whether triangle is valid or not.
+
+// var a =+ prompt("Enter First Side:");
+// var b =+ prompt("Enter Second Side:");
+// var c =+ prompt("Enter Third Side:");
+// if(a + b > c || b + c > a || c + a > b){
+//     console.log("It's a Valid Triangle.");    
+// }
+// else if(a + b <= c || b + c <= a || c + a <= b){
+//     console.log("It's NOT a Valid Triangle.");    
+// }
+// else{
+//     console.log("Invalid Input.");    
+// }
+
+// 16. Write a js program to check whether the triangle is equilateral, isosceles or scalene triangle.
+
+// var a =+ prompt("Enter First Side:");
+// var b =+ prompt("Enter Second Side:");
+// var c =+ prompt("Enter Third Side:");
+// if(a == b && b == c){
+//     console.log("It's an Equilateral Triangle.");    
+// }
+// else if(a == b || b == c || c == a){
+//     console.log("It's an Isosceles Triangle.");    
+// }
+// else{
+//     console.log("It's a Scalene Triangle.");    
+// }
