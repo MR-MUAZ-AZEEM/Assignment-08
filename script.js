@@ -180,6 +180,31 @@
 //     console.log("Invalid Input.");    
 // }
 
+// 13. Write a js program to count total number of notes in given amount.
+
+// var x =+ prompt("Enter Amount Between 5000 to 10000 Divisible By 1000:");
+// if(x == 5000){
+//     console.log("13 Notes[ 4(1000)+1(500)+4(100)+1(50)+2(20)+1(10) ]");
+// }
+// else if(x == 6000){
+//     console.log("10 Notes[ 1(5000)+1(500)+4(100)+1(50)+2(20)+1(10) ]");
+// }
+// else if(x == 7000){
+//     console.log("11 Notes[ 1(5000)+1(1000)+1(500)+4(100)+1(50)+2(20)+1(10) ]");
+// }
+// else if(x == 8000){
+//     console.log("12 Notes[ 1(5000)+2(1000)+1(500)+4(100)+1(50)+2(20)+1(10) ]");
+// }
+// else if(x == 9000){
+//     console.log("13 Notes[ 1(5000)+3(1000)+1(500)+4(100)+1(50)+2(20)+1(10) ]");
+// }
+// else if(x == 10000){
+//     console.log("14 Notes[ 1(5000)+4(1000)+1(500)+4(100)+1(50)+2(20)+1(10) ]");
+// }
+// else{
+//     console.log("Invalid Input.");    
+// }
+
 // 14. Write a js program to input angles of a triangle and check whether triangle is valid or not.
  
 // var x =+ prompt("Enter First Angle:");
@@ -224,3 +249,144 @@
 // else{
 //     console.log("It's a Scalene Triangle.");    
 // }
+
+// 17. Write a js program to find all roots of a quadratic equation.
+ 
+// var a =+ prompt("Enter The Value of 'a' According to ax^2 + bx + c = 0");
+// var b =+ prompt("Enter The Value of 'b' According to ax^2 + bx + c = 0");
+// var c =+ prompt("Enter The Value of 'c' According to ax^2 + bx + c = 0");
+// var result = b**2 - 4 * a * c;
+// if(result > 0){
+//     console.log("Roots Are REAL And DIFFERENT.");    
+// }
+// else if(result == 0){
+//     console.log("Roots Are REAL And EQUAL.");
+// }
+// else if(result < 0){
+//     console.log("Roots Are IMAGINARY.");    
+// }
+// else{
+//     console.log("Invalid Input.");    
+// }
+
+// 18. Write a js program to calculate profit or loss.
+
+// var x =+ prompt("Enter Cost Price:");
+// var y =+ prompt("Enter Selling Price:");
+// if(x < y){
+//     console.log("Profit.");    
+// }
+// else if(x == y || x > y){
+//     console.log("Loss.");    
+// }
+// else{
+//     console.log("Invalid Input.");    
+// }
+
+// 19. Write a js program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following:
+// Percentage >= 90% : Grade A
+// Percentage >= 80% : Grade B
+// Percentage >= 70% : Grade C
+// Percentage >= 60% : Grade D
+// Percentage >= 40% : Grade E
+// Percentage < 40% : Grade F
+
+// var a =+ prompt("Enter Marks of Physics Out of 75:");
+// var b =+ prompt("Enter Marks of Chemistry Out of 75:");
+// var c =+ prompt("Enter Marks of Biology Out of 75:");
+// var d =+ prompt("Enter Marks of Mathematics Out of 75:");
+// var e =+ prompt("Enter Marks of Computer Out of 75:");
+// var sum = a + b + c + d + e;
+// var result = (sum / 375) * 100;
+// if(result >= 90 && result <= 100){
+//     console.log("Grade A");    
+// }
+// else if(result >= 80 && result < 90){
+//     console.log("Grade B");    
+// }
+// else if(result >= 70 && result < 80){
+//     console.log("Grade C");    
+// }
+// else if(result >= 60 && result < 70){
+//     console.log("Grade D");    
+// }
+// else if(result >= 40 && result < 60){
+//     console.log("Grade E");    
+// }
+// else if(result < 40){
+//     console.log("Grade F");    
+// }
+// else{
+//     console.log("Invalid Input.");    
+// }
+
+// 20. Write a js program to input basic salary of an employee and calculate its Gross salary according to following:
+// Basic Salary <= 10000 : HRA = 20%, DA = 80%
+// Basic Salary <= 20000 : HRA = 25%, DA = 90%
+// Basic Salary > 20000 : HRA = 30%, DA = 95%
+
+// var x =+ prompt("Enter Salary Amount:");
+// var hra = 0;
+// var da = 0;
+// var gross = 0;
+// if(x <= 10000){
+//     hra = (20 / 100) * x;
+//     da = (80 / 100) * x;
+//     gross = x + hra + da;
+//     console.log("Your Gross Salary is:", gross);    
+// }
+// else if(x <= 20000){
+//     hra = (25 / 100) * x;
+//     da = (90 / 100) * x;
+//     gross = x + hra + da;
+//     console.log("Your Gross Salary is:", gross);
+// }
+// else if(x > 20000){
+//     hra = (30 / 100) * x;
+//     da = (95 / 100) * x;
+//     gross = x + hra + da;
+//     console.log("Your Gross Salary is:", gross);
+// }
+// else{
+//     console.log("Invalid Input.");    
+// }
+
+// 21. Write a js program to input electricity unit charges and calculate total electricity bill according to the given condition:
+// For first 50 units Rs. 0.50/unit
+// For next 100 units Rs. 0.75/unit
+// For next 100 units Rs. 1.20/unit
+// For unit above 250 Rs. 1.50/unit
+// An additional surcharge of 20% is added to the bill
+
+// var x =+ prompt("Enter Units:");
+// var sur = 0;
+// var price = 0;
+// if(x <= 50){
+//     price = 0.50 * x;
+//     sur = (20 / 100) * price;
+//     price = sur + price;
+//     console.log("Your Bill is:", price);    
+// }
+// else if(x <= 150){
+//     price = 0.75 * x;
+//     sur = (20 / 100) * price;
+//     price = sur + price;
+//     console.log("Your Bill is:", price);
+// }
+// else if(x <= 250){
+//     price = 1.20 * x;
+//     sur = (20 / 100) * price;
+//     price = sur + price;
+//     console.log("Your Bill is:", price);
+// }
+// else if(x > 250){
+//     price = 1.50 * x;
+//     sur = (20 / 100) * price;
+//     price = sur + price;
+//     console.log("Your Bill is:", price);
+// }
+// else{
+//     console.log("Invalid Input.");    
+// }
+
+// I Don't Know The Logic Of This Last Program Because It's A Simple If-else Programs Assignment. That's Why I Have Written This Program In That Way. THANK YOU!
